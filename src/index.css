@@ -1,1 +1,11 @@
 @import "tailwindcss";
+
+@theme {
+  --color-Blue-900: #0b0d17;
+  --color-Blue-300: #d0d6f9;
+  --color-White: #fff;
+
+  /* Typography */
+  --default-font-family: "Bellefair", serif;
+  --font-Barlow: "Barlow", sans-serif;
+}
