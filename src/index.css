@@ -9,3 +9,9 @@
   --default-font-family: "Bellefair", serif;
   --font-Barlow: "Barlow", sans-serif;
 }
+
+.backgroundEarthImage {
+  background-image: url("./assets/home/background-home-mobile.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
