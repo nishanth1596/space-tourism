@@ -1,7 +1,7 @@
 function Home() {
   return (
     <section className="backgroundEarthImage p-6">
-      <h1 className="font-Barlow text-Blue-300 text-center leading-[19.2px] font-normal tracking-[15%] uppercase">
+      <h1 className="font-Barlow text-Blue-300 text-center">
         So, you want to travel to{" "}
         <span className="text-White mt-6 block text-[80px] leading-[91.7px] tracking-[0px]">
           space

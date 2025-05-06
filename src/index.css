@@ -15,3 +15,9 @@
   background-size: cover;
   background-position: bottom;
 }
+
+@layer base {
+  h1 {
+    @apply leading-[19.2px] font-normal tracking-[15%] uppercase;
+  }
+}
