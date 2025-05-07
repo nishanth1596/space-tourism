@@ -3,6 +3,8 @@ import marsImg from "../../assets/destination/image-mars.webp";
 import europaImg from "../../assets/destination/image-europa.png";
 import titanImg from "../../assets/destination/image-titan.png";
 import { useState } from "react";
+import { useQuery } from "@tanstack/react-query";
+import { fetchData } from "../../api/fetchData";
 
 const images = [
   [moonImg, "Moon"],
@@ -13,6 +15,11 @@ const images = [
 
 function Destination() {
   const [imageIndex, setImageIndex] = useState<0 | 1 | 2 | 3>(0);
+
+  const { data, isLoading, error } = useQuery({
+    queryKey: ["destination"],
+    queryFn: fetchData,
+  });
 
   return (
     <section className="p-6 text-center">
