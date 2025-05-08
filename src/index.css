@@ -16,6 +16,11 @@
   background-position: bottom;
 }
 
+.backgroundDestinationImage {
+  background-image: url("../public/assets/destination/background-destination-mobile.jpg");
+  background-size: cover;
+}
+
 @layer base {
   h1 {
     @apply leading-[19.2px] font-normal tracking-[15%] uppercase;

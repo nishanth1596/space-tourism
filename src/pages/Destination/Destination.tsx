@@ -28,7 +28,7 @@ function Destination() {
   const image = destinations[imageIndex].images.webp;
 
   return (
-    <section className="p-6 text-center">
+    <section className="backgroundDestinationImage p-6 text-center">
       <h1 className="font-Barlow text-White flex items-center justify-center gap-6">
         <span className="text-base font-bold opacity-25">01</span> pick your
         destination
