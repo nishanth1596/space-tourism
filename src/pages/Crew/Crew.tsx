@@ -55,7 +55,7 @@ function Crew() {
       <nav className="mt-6 flex items-center justify-center gap-4">
         {Array.from({ length: 4 }, (_, index) => (
           <button
-            className="block h-2.5 w-2.5 rounded-full bg-white opacity-15"
+            className="block h-2.5 w-2.5 cursor-pointer rounded-full bg-white opacity-15"
             style={{ opacity: crewIndex === index ? "1" : "" }}
             key={index}
             onClick={() => handleClick(index as 0 | 1 | 2 | 3)}
