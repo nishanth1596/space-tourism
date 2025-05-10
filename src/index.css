@@ -21,6 +21,11 @@
   background-size: cover;
 }
 
+.backgroundTechnologyImage {
+  background-image: url("../public/assets/technology/background-technology-mobile.jpg");
+  background-size: contain;
+}
+
 @layer base {
   h1 {
     @apply text-base leading-[19.2px] font-normal tracking-[2.4px] uppercase;
