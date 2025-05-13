@@ -24,7 +24,7 @@ function Header() {
       </button>
 
       {isOpen ? (
-        <div className="bg-Blue-900/15 fixed top-0 right-0 bottom-0 w-[67.7%]">
+        <div className="bg-Blue-900/15 fixed top-0 right-0 bottom-0 w-[67.7%] backdrop-blur-3xl">
           <button
             className="my-8 mr-6 ml-auto block"
             aria-label="click to close menu"
